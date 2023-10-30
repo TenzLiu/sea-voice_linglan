@@ -21,13 +21,13 @@
 
         </FrameLayout>
 
-        <com.jingtaoi.yy.view.MyViewPager
+        <com.linglani.yy.view.MyViewPager
             android:id="@+id/myViewpager_main"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1">
 
-        </com.jingtaoi.yy.view.MyViewPager>
+        </com.linglani.yy.view.MyViewPager>
 
         <include layout="@layout/view_line"/>
 
@@ -52,7 +52,7 @@
                 android:textColor="@color/nav_noselct_color"
                 android:textSize="@dimen/sp_10" />
 
-            <TextView
+            <!--<TextView
                 android:id="@+id/tv_find"
                 android:layout_width="@dimen/dp_0"
                 android:layout_height="match_parent"
@@ -64,7 +64,7 @@
                 android:paddingBottom="@dimen/dp_6"
                 android:text="广播交友"
                 android:textColor="@color/nav_noselct_color"
-                android:textSize="@dimen/sp_10" />
+                android:textSize="@dimen/sp_10" />-->
 
             <RelativeLayout
                 android:layout_width="@dimen/dp_0"
@@ -173,7 +173,7 @@
             android:layout_marginStart="@dimen/dp_5"
             android:layout_centerVertical="true">
 
-            <com.jingtaoi.yy.view.ShapeImageView
+            <com.linglani.yy.view.ShapeImageView
                 android:id="@+id/iv_roomshow_main"
                 fresco:shape="Circle"
                 android:layout_width="@dimen/dp_52"

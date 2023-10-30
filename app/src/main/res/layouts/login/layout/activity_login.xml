@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/dp_5"
-            android:text="《 惊涛语音用户协议》"
+            android:text="《 灵澜语音用户协议》"
             android:textColor="@color/FF003F"
             android:textSize="@dimen/sp_12" />
     </LinearLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">惊涛语音</string>
+    <string name="app_name">灵澜语音</string>
 
     <string name="test_url">http://p0.qhimgs4.com/t0142d928c84fe67524.jpg</string>
 
@@ -74,7 +74,7 @@
     <string name="tv_music_voice">播放音乐</string>
     <string name="tv_type_chat_voice">聊天</string>
     <string name="tv_leave_voice">离开</string>
-    <string name="tv_apphint_voice"> 惊涛语音：官方倡导绿色聊天，任何违法，低俗。暴力，敲诈等不良信 息，官方将会采取封号处理。</string>
+    <string name="tv_apphint_voice"> 灵澜语音：官方倡导绿色聊天，任何违法，低俗。暴力，敲诈等不良信 息，官方将会采取封号处理。</string>
     <string name="hint_chat_voice">输入你想说的话</string>
     <string name="hint_chat1_voice">房间</string>
     <string name="hint_chat2_voice">全平台</string>
@@ -192,7 +192,7 @@
     <string name="tv_nodata_balckuser">暂没有设置黑名单</string>
     <string name="tv_nodata_roomadmin">暂没有设置管理员</string>
     <string name="tv_nodata_music">暂无歌曲</string>
-    <string name="tv_nodata_musicupdate">暂无通过审核的音乐，\n请到 惊涛语音-电脑端进行音乐上传！\n官网www.youyou.com</string>
+    <string name="tv_nodata_musicupdate">暂无通过审核的音乐，\n请到 灵澜语音-电脑端进行音乐上传！\n官网www.youyou.com</string>
 
     <string name="title_theme">主题背景</string>
 
@@ -276,7 +276,7 @@
     <string name="title_find">发现</string>
     <string name="tv_name_find">实名认证</string>
     <string name="tv_five_find">5星好评送浪花</string>
-    <string name="tv_att_find"> 惊涛语音使用手册</string>
+    <string name="tv_att_find"> 灵澜语音使用手册</string>
     <string name="tv_send_find">公众号送浪花</string>
     <string name="tv_share_find">邀请大作战</string>
 
@@ -295,7 +295,7 @@
         审核将被驳回。 \n2. 验证后，我们将对被认定为未成年人（即年龄小于18周岁）的用户，
         提供适合未成年人的内容。 \n3. 若上传其他非验证信息的内容，平台将会视情况对账号进行封禁处理。
         \n4. 在一定时段内，未经认证审核的用户，将会被认定为未成年人，无法使用APP部分功能。
-        \n5. 本实名认证仅用于优化未成年人在 惊涛语音游览的内容以及体验，不作为找回账号等其他要求的凭证，平台不会用于其他用途。</string>
+        \n5. 本实名认证仅用于优化未成年人在 灵澜语音游览的内容以及体验，不作为找回账号等其他要求的凭证，平台不会用于其他用途。</string>
 
 
     <string name="title_message">消息</string>
@@ -454,7 +454,7 @@
 
     <string name="tv_service_setting">联系官方</string>
     <string name="tv_help_setting">帮助</string>
-    <string name="tv_forus_setting">关于 惊涛语音</string>
+    <string name="tv_forus_setting">关于 灵澜语音</string>
     <string name="tv_version_setting">当前版本</string>
 
 
@@ -466,7 +466,7 @@
     <string name="title_fans">粉丝</string>
 
 
-    <string name="title_login">欢迎来到惊涛语音</string>
+    <string name="title_login">欢迎来到灵澜语音</string>
     <string name="tv_phone_login">手机号码</string>
     <string name="hint_phone_login">请输入手机号</string>
     <string name="hint_newphone_login">请输入新手机号</string>
@@ -492,7 +492,7 @@
     <string name="title_register">欢迎注册</string>
     <string name="hint_phone_register">请输入您手机号码</string>
     <string name="hint_checkone_register">阅读并同意</string>
-    <string name="hint_checktwo_register">《 惊涛语音用户协议》</string>
+    <string name="hint_checktwo_register">《 灵澜语音用户协议》</string>
     <string name="hint_psdall_register">请输入6-20位英文字母或数字</string>
 
     <string name="title_datainput">填写基本资料</string>

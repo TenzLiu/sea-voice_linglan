@@ -15,7 +15,7 @@
         android:layout_height="match_parent"
         android:padding="@dimen/dp_1">
 
-        <com.jingtaoi.yy.view.RoundRecyclerView
+        <com.linglani.yy.view.RoundRecyclerView
             android:id="@+id/mRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

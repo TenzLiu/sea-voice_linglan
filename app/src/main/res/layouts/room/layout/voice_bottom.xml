@@ -22,33 +22,32 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_15">
             <ImageView
                 android:scaleType="fitXY"
                 android:layout_above="@id/iv_dinghaiFishing"
                 android:id="@+id/iv_donghaiFishing"
-                android:layout_width="@dimen/dp_45"
-                android:layout_height="@dimen/dp_42"
+                android:layout_width="@dimen/dp_60"
+                android:layout_height="@dimen/dp_60"
                 android:layout_marginBottom="@dimen/dp_10"
                 android:layout_marginEnd="@dimen/dp_5"
                 android:src="@mipmap/icon_donghai_fishing_entrance_new"
                 android:visibility="gone" />
             <ImageView
                 android:id="@+id/iv_dinghaiFishing"
-                android:layout_width="@dimen/dp_50"
-                android:layout_height="@dimen/dp_40"
+                android:layout_width="@dimen/dp_60"
+                android:layout_height="@dimen/dp_60"
                 android:layout_marginBottom="@dimen/dp_10"
                 android:layout_marginEnd="@dimen/dp_5"
                 android:src="@mipmap/icon_dinghai_fishing_entrance_new"
                 android:visibility="gone" />
             <ImageView
                 android:id="@+id/iv_deepSeaFishing"
-                android:layout_width="@dimen/dp_50"
-                android:layout_height="@dimen/dp_40"
+                android:layout_width="@dimen/dp_60"
+                android:layout_height="@dimen/dp_60"
                 android:layout_marginEnd="@dimen/dp_5"
-                android:layout_marginBottom="@dimen/dp_5"
                 android:src="@mipmap/icon_deep_sea_fishing_entrance_new"
                 android:visibility="gone" />
         </LinearLayout>

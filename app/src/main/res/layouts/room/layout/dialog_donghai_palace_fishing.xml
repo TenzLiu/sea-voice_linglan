@@ -16,17 +16,63 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@mipmap/icon_donghai_fishing_bg"
-            android:paddingBottom="@dimen/dp_25">
+            android:paddingBottom="@dimen/dp_10">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="@dimen/dp_80"
+                android:layout_marginStart="@dimen/dp_10"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_jackpot"
+                    android:layout_width="@dimen/dp_35"
+                    android:layout_height="@dimen/dp_35"
+                    android:src="@mipmap/icon_jackpot" />
+
+                <ImageView
+                    android:id="@+id/iv_record"
+                    android:layout_width="@dimen/dp_35"
+                    android:layout_height="@dimen/dp_35"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:src="@mipmap/icon_record" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/dp_80"
+                android:layout_marginEnd="@dimen/dp_10"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_method"
+                    android:layout_width="@dimen/dp_35"
+                    android:layout_height="@dimen/dp_35"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:src="@mipmap/icon_method" />
+
+                <ImageView
+                    android:id="@+id/iv_rankList"
+                    android:layout_width="@dimen/dp_35"
+                    android:layout_height="@dimen/dp_35"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:src="@mipmap/icon_rank_list" />
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/ll_coin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:paddingVertical="@dimen/dp_3"
                 android:paddingHorizontal="@dimen/dp_5"
-                android:layout_marginTop="@dimen/dp_80"
                 android:background="@drawable/bg_dialog_coin_gray">
 
                 <ImageView
@@ -49,92 +95,139 @@
                     android:src="@mipmap/icon_coin_add"/>
 
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true"
-                android:layout_marginEnd="@dimen/dp_10"
-                android:orientation="vertical">
-                <ImageView
-                    android:id="@+id/iv_jackpot"
-                    android:layout_width="@dimen/dp_45"
-                    android:layout_height="@dimen/dp_45"
-                    android:src="@mipmap/icon_jackpot" />
-
-                <ImageView
-                    android:id="@+id/iv_record"
-                    android:layout_width="@dimen/dp_45"
-                    android:layout_height="@dimen/dp_45"
-                    android:layout_marginTop="@dimen/dp_10"
-                    android:src="@mipmap/icon_record" />
-
-                <ImageView
-                    android:id="@+id/iv_method"
-                    android:layout_width="@dimen/dp_45"
-                    android:layout_height="@dimen/dp_45"
-                    android:layout_marginTop="@dimen/dp_10"
-                    android:src="@mipmap/icon_method" />
-
-                <ImageView
-                    android:id="@+id/iv_rankList"
-                    android:layout_width="@dimen/dp_45"
-                    android:layout_height="@dimen/dp_45"
-                    android:layout_marginTop="@dimen/dp_10"
-                    android:src="@mipmap/icon_rank_list" />
-            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/rl_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
+                android:layout_above="@+id/ll_coin"
+                android:layout_marginBottom="@dimen/dp_10"
                 android:layout_centerHorizontal="true"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/iv_cout1"
+                <RelativeLayout
+                    android:id="@+id/rv_count1"
                     android:layout_width="@dimen/dp_100"
                     android:layout_height="@dimen/dp_40"
                     android:layout_marginEnd="@dimen/dp_10"
-                    android:background="@mipmap/deep_sea_fishing_bt_1" />
-
-                <ImageView
-                    android:id="@+id/iv_cout10"
+                    android:background="@mipmap/deep_sea_fishing_bt_1" >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="@dimen/dp_8">
+                        <ImageView
+                            android:layout_width="@dimen/dp_12"
+                            android:layout_height="@dimen/dp_12"
+                            android:layout_marginStart="@dimen/dp_6"
+                            android:src="@mipmap/jackpot_item_gold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="@dimen/dp_3"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp_11"
+                            android:text="20" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/rv_count10"
                     android:layout_width="@dimen/dp_100"
                     android:layout_height="@dimen/dp_40"
-                    android:layout_marginHorizontal="@dimen/dp_10"
-                    android:background="@mipmap/deep_sea_fishing_bt_10" />
-
-                <ImageView
-                    android:id="@+id/iv_cout100"
+                    android:layout_marginEnd="@dimen/dp_10"
+                    android:background="@mipmap/deep_sea_fishing_bt_10" >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="@dimen/dp_8">
+                        <ImageView
+                            android:layout_width="@dimen/dp_12"
+                            android:layout_height="@dimen/dp_12"
+                            android:layout_marginStart="@dimen/dp_6"
+                            android:src="@mipmap/jackpot_item_gold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="@dimen/dp_3"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp_11"
+                            android:text="200" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/rv_count100"
                     android:layout_width="@dimen/dp_100"
                     android:layout_height="@dimen/dp_40"
-                    android:layout_marginStart="@dimen/dp_10"
-                    android:background="@mipmap/deep_sea_fishing_bt_100" />
+                    android:layout_marginEnd="@dimen/dp_10"
+                    android:background="@mipmap/deep_sea_fishing_bt_100" >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="@dimen/dp_8">
+                        <ImageView
+                            android:layout_width="@dimen/dp_12"
+                            android:layout_height="@dimen/dp_12"
+                            android:layout_marginStart="@dimen/dp_6"
+                            android:src="@mipmap/jackpot_item_gold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="@dimen/dp_3"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp_11"
+                            android:text="2000" />
+                    </LinearLayout>
+                </RelativeLayout>
             </LinearLayout>
 
-            <ImageView
-                android:id="@+id/iv_skip"
+            <RelativeLayout
+                android:id="@+id/rv_skip"
                 android:layout_width="@dimen/dp_80"
                 android:layout_height="@dimen/dp_25"
                 android:layout_above="@+id/rl_count"
-                android:layout_alignStart="@+id/rl_count"
-                android:layout_marginBottom="@dimen/dp_10"
-                android:src="@mipmap/icon_skip_on" />
+                android:layout_alignEnd="@+id/rl_count"
+                android:layout_marginBottom="@dimen/dp_10">
+                <ImageView
+                    android:id="@+id/iv_skip"
+                    android:layout_width="@dimen/dp_80"
+                    android:layout_height="@dimen/dp_25"
+                    android:src="@mipmap/icon_skip_on_off" />
+                <TextView
+                    android:id="@+id/tv_skip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_12"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/dp_15"
+                    android:text="关" />
+            </RelativeLayout>
 
             <ImageView
                 android:id="@+id/iv_treasure"
-                android:layout_width="@dimen/dp_180"
-                android:layout_height="@dimen/dp_180"
+                android:layout_width="@dimen/dp_240"
+                android:layout_height="@dimen/dp_240"
                 android:layout_centerInParent="true"
                 android:src="@mipmap/icon_donghai_fishing_treasure"
                 android:visibility="visible"/>
 
             <ImageView
                 android:id="@+id/iv_anim"
-                android:layout_width="@dimen/dp_260"
-                android:layout_height="@dimen/dp_260"
+                android:layout_width="@dimen/dp_280"
+                android:layout_height="@dimen/dp_280"
                 android:layout_centerInParent="true"
                 android:visibility="gone"/>
 
@@ -143,12 +236,22 @@
 
     <ImageView
         android:id="@+id/iv_head"
-        android:layout_width="@dimen/dp_300"
-        android:layout_height="@dimen/dp_95"
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="@dimen/dp_60"
+        android:layout_marginTop="@dimen/dp_50"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:gravity="center_horizontal"
         android:src="@mipmap/icon_donghai_fishing_top"
         android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_60"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:src="@mipmap/icon_dialog_close" />
 
 </RelativeLayout>
