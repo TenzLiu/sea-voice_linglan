@@ -137,15 +137,15 @@ public class MessageLayout extends MessageLayoutUI {
 //        });
 //        actions.add(action);
         if (msg.isSelf()) {
-            action = new PopMenuAction();
-            action.setActionName("撤回");
-            action.setActionClickListener(new PopActionClickListener() {
-                @Override
-                public void onActionClick(int position, Object data) {
-                    mOnPopActionClickListener.onRevokeMessageClick(position, (MessageInfo) data);
-                }
-            });
-            actions.add(action);
+//            action = new PopMenuAction();
+//            action.setActionName("撤回");
+//            action.setActionClickListener(new PopActionClickListener() {
+//                @Override
+//                public void onActionClick(int position, Object data) {
+//                    mOnPopActionClickListener.onRevokeMessageClick(position, (MessageInfo) data);
+//                }
+//            });
+//            actions.add(action);
             if (msg.getStatus() == MessageInfo.MSG_STATUS_SEND_FAIL) {
                 action = new PopMenuAction();
                 action.setActionName("重发");

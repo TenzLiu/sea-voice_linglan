@@ -82,6 +82,8 @@ public class DonghaiPalaceFishingDialog extends Dialog implements FrameAnimation
     ImageView iv_treasure;
     @BindView(R.id.iv_anim)
     ImageView iv_anim;
+    @BindView(R.id.iv_effect)
+    ImageView iv_effect;
     private Map<Integer, Integer> fishBeanViewMap = new HashMap<>();
 
     private List<FishBean> fishBeans = new ArrayList<>();
@@ -301,10 +303,26 @@ public class DonghaiPalaceFishingDialog extends Dialog implements FrameAnimation
                 ChestOpenBean chestOpenBean = JSON.parseObject(responseString, ChestOpenBean.class);
                 if (chestOpenBean.getCode() == Api.SUCCESS) {
                     data = chestOpenBean.getData();//跳过动画
+                    boolean isValuable = false;
+                    for (ChestOpenBean.DataBean.LotteryBean bean : data.getLottery()) {
+                        if (bean.getGold() >=4000) {
+                            isValuable = true;
+                            break;
+                        }
+                    }
+                    //跳过动画
                     if (isSkipAnima) {
-                        showChestResult(chestOpenBean);
+                        if(isValuable){
+                            playValuableEffect(chestOpenBean);
+                        }else{
+                            showChestResult(chestOpenBean);
+                        }
                     } else {
-                        playAnim(chestOpenBean);
+                        if(isValuable){
+                            playValuableEffect(chestOpenBean);
+                        }else{
+                            playAnim(chestOpenBean);
+                        }
                     }
 
                 } else {
@@ -365,6 +383,52 @@ public class DonghaiPalaceFishingDialog extends Dialog implements FrameAnimation
                     }
                 })
                 .into(iv_anim);
+    }
+
+    /**
+     * 播放动画
+     * @param chestOpenBean
+     */
+    private void playValuableEffect(ChestOpenBean chestOpenBean){
+        //webp动图
+        iv_treasure.setVisibility(View.GONE);
+        iv_effect.setVisibility(View.VISIBLE);
+        Transformation<Bitmap> transformation = new CenterInside();
+        Glide.with(activity)
+                .load(R.mipmap.effect_200)//不是本地资源就改为url即可
+                .optionalTransform(transformation)
+                .optionalTransform(WebpDrawable.class, new WebpDrawableTransformation(transformation))
+                .addListener(new RequestListener<Drawable>() {
+                    @Override
+                    public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
+                        return false;
+                    }
+
+                    @Override
+                    public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
+                        WebpDrawable webpDrawable = (WebpDrawable) resource;
+                        //需要设置为循环1次才会有onAnimationEnd回调
+                        webpDrawable.setLoopCount(1);
+                        webpDrawable.registerAnimationCallback(new Animatable2Compat.AnimationCallback() {
+                            @Override
+                            public void onAnimationStart(Drawable drawable) {
+                                super.onAnimationStart(drawable);
+                            }
+
+                            @Override
+                            public void onAnimationEnd(Drawable drawable) {
+                                super.onAnimationEnd(drawable);
+                                webpDrawable.unregisterAnimationCallback(this);
+                                iv_treasure.setVisibility(View.VISIBLE);
+                                iv_effect.setVisibility(View.GONE);
+                                showChestResult(chestOpenBean);
+                            }
+                        });
+
+                        return false;
+                    }
+                })
+                .into(iv_effect);
     }
 
     private void showChestResult(ChestOpenBean chestOpenBean) {
