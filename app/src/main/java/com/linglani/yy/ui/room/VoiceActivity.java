@@ -3946,7 +3946,9 @@ public class VoiceActivity extends MyBaseMVPActivity implements VoiceView,
             if (giftAllModel != null) {
                 List<String> msgRids = giftAllModel.getData().getRids();
                 if (msgRids != null && msgRids.size() > 0 && msgRids.contains(roomId)) {
-                    chatShowChat.add(msg);
+                    if(messageBean.getCode() != 122){
+                        chatShowChat.add(msg);
+                    }
                     if (mRecyclerViewChatVoice.canScrollVertically(1)) {
                         tvHasMessageVoice.setVisibility(View.VISIBLE);
                     } else {
@@ -3960,8 +3962,6 @@ public class VoiceActivity extends MyBaseMVPActivity implements VoiceView,
         } else if (messageBean.getCode() == 999) { //更新 麦位信息
 //            voicePresenter.getChatShow(userToken, roomId);
         }else if(messageBean.getCode() == 1001){
-
-
         chatShowChat.add(msg);
         chatRecyclerAdapter.notifyDataSetChanged();
         }
