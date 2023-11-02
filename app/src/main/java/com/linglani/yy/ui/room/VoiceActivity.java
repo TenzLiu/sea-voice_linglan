@@ -4144,7 +4144,7 @@ public class VoiceActivity extends MyBaseMVPActivity implements VoiceView,
             try {
                 int goldNum = Integer.parseInt(number);
                 if (goldNum > userGold) {
-                    showToast("赠送浪花数多以您拥有的数量");
+                    showToast("赠送浪花数多于您拥有的数量");
                     return;
                 }
             } catch (Exception e) {

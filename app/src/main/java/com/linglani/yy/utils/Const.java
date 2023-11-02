@@ -14,7 +14,8 @@ public class Const {
 //    public static final String BASE_URL = "https://test.hhshengwei.com/siyecao/"; //debug
 //    public static final String BASE_URL = "http://www.uoizfez.cn/senhai/";
 //    public static final String BASE_URL = "http://123.56.155.174/senhai/";
-    public static final String BASE_URL = "http://8.140.58.1/senhai/";
+//    public static final String BASE_URL = "http://8.140.58.1/senhai/";
+    public static final String BASE_URL = "http://127.0.0.1:10808/senhai/";
 //    public static String AGORA_APP_ID = "c797dfdab0e84a5f9de200edac6b71e6";//debug
 //    public static String AGORA_APP_ID = "6ee3e0150bbb464c880dfa3f6dc65797";
 //    public static String AGORA_APP_ID = "a38fc709b1ec47d0a3062e2ef6e40ae6";

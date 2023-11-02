@@ -218,23 +218,23 @@
 
             <ImageView
                 android:id="@+id/iv_treasure"
-                android:layout_width="@dimen/dp_240"
-                android:layout_height="@dimen/dp_240"
+                android:layout_width="@dimen/dp_360"
+                android:layout_height="@dimen/dp_360"
                 android:layout_centerInParent="true"
                 android:src="@mipmap/icon_dinghai_fishing_treasure"
                 android:visibility="visible"/>
 
             <ImageView
                 android:id="@+id/iv_anim"
-                android:layout_width="@dimen/dp_280"
-                android:layout_height="@dimen/dp_280"
+                android:layout_width="@dimen/dp_360"
+                android:layout_height="@dimen/dp_360"
                 android:layout_centerInParent="true"
                 android:visibility="gone"/>
 
             <ImageView
                 android:id="@+id/iv_effect"
-                android:layout_width="@dimen/dp_280"
-                android:layout_height="@dimen/dp_280"
+                android:layout_width="@dimen/dp_360"
+                android:layout_height="@dimen/dp_360"
                 android:layout_centerInParent="true"
                 android:visibility="gone"/>
 

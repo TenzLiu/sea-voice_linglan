@@ -97,6 +97,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
 
 
+    implementation files('libs/clinkapi-release.aar')
+
     implementation project(path: ':xldUtils')
     implementation project(path: ':tuikit')
 
