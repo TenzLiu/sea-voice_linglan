@@ -3111,7 +3111,7 @@ public class VoiceActivity extends MyBaseMVPActivity implements VoiceView,
                     deepSeaFishingDialog.setSendChestsMsg(new DeepSeaFishingDialog.SendChestsMsg() {
                         @Override
                         public void onSendChestsMsg(String msg) {
-                            sendTencentMsg(msg);
+//                            sendTencentMsg(msg);
                         }
                     });
                     deepSeaFishingDialog.show();
@@ -3125,7 +3125,7 @@ public class VoiceActivity extends MyBaseMVPActivity implements VoiceView,
                     dingHaiFishingDialog.setSendChestsMsg(new DingHaiFishingDialog.SendChestsMsg() {
                         @Override
                         public void onSendChestsMsg(String msg) {
-                            sendTencentMsg(msg);
+//                            sendTencentMsg(msg);
                         }
                     });
                     dingHaiFishingDialog.show();
@@ -3139,7 +3139,7 @@ public class VoiceActivity extends MyBaseMVPActivity implements VoiceView,
                     donghaiPalaceFishingDialog.setSendChestsMsg(new DonghaiPalaceFishingDialog.SendChestsMsg() {
                         @Override
                         public void onSendChestsMsg(String msg) {
-                            sendTencentMsg(msg);
+//                            sendTencentMsg(msg);
                         }
                     });
                     donghaiPalaceFishingDialog.show();
@@ -3946,9 +3946,7 @@ public class VoiceActivity extends MyBaseMVPActivity implements VoiceView,
             if (giftAllModel != null) {
                 List<String> msgRids = giftAllModel.getData().getRids();
                 if (msgRids != null && msgRids.size() > 0 && msgRids.contains(roomId)) {
-                    if(messageBean.getCode() != 122){
-                        chatShowChat.add(msg);
-                    }
+                    chatShowChat.add(msg);
                     if (mRecyclerViewChatVoice.canScrollVertically(1)) {
                         tvHasMessageVoice.setVisibility(View.VISIBLE);
                     } else {
