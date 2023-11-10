@@ -297,7 +297,7 @@
                 android:layout_height="wrap_content"
                 android:paddingHorizontal="@dimen/dp_16"
                 android:layout_marginTop="@dimen/dp_5"
-                android:text="每获得1个浪花礼物，就能增加1点魅力值。"
+                android:text="每获得1个甜甜圈礼物，就能增加1点魅力值。"
                 android:textColor="#ff5e6973"
                 android:textSize="12sp" />
 

@@ -67,7 +67,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="true"
-                    android:text="充值浪花"
+                    android:text="充值甜甜圈"
                     android:textStyle="bold"
                     android:textColor="#ff1c2023"
                     android:textSize="16sp" />

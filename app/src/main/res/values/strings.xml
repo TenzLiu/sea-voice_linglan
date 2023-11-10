@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">灵澜语音</string>
+    <string name="app_name">甜甜语音</string>
 
     <string name="test_url">http://p0.qhimgs4.com/t0142d928c84fe67524.jpg</string>
 
@@ -44,7 +44,7 @@
     <string name="tv_sendotherto">已赠送</string>
 
 
-    <string name="tv_you">浪花</string>
+    <string name="tv_you">甜甜圈</string>
     <string name="tv_sixin">私信</string>
     <string name="tv_topup">充值</string>
     <string name="tv_micshow">号麦位</string>
@@ -74,7 +74,7 @@
     <string name="tv_music_voice">播放音乐</string>
     <string name="tv_type_chat_voice">聊天</string>
     <string name="tv_leave_voice">离开</string>
-    <string name="tv_apphint_voice"> 灵澜语音：官方倡导绿色聊天，任何违法，低俗。暴力，敲诈等不良信 息，官方将会采取封号处理。</string>
+    <string name="tv_apphint_voice"> 甜甜语音：官方倡导绿色聊天，任何违法，低俗。暴力，敲诈等不良信 息，官方将会采取封号处理。</string>
     <string name="hint_chat_voice">输入你想说的话</string>
     <string name="hint_chat1_voice">房间</string>
     <string name="hint_chat2_voice">全平台</string>
@@ -119,7 +119,7 @@
     <string name="tv_setadmin_bottomshow">设置管理员</string>
     <string name="tv_deladmin_bottomshow">移除管理员</string>
     <string name="tv_addblacklist_bottomshow">拉黑</string>
-    <string name="tv_send_bottomshow">赠送浪花</string>
+    <string name="tv_send_bottomshow">赠送甜甜圈</string>
 
 
     <string name="tv_message_bottomshow">查看资料</string>
@@ -129,7 +129,7 @@
 
 
     <string name="tv_reward_reward">打赏</string>
-    <string name="tv_rewardyou_reward">打赏浪花</string>
+    <string name="tv_rewardyou_reward">打赏甜甜圈</string>
     <string name="tv_packet_reward">红包打赏</string>
     <string name="tv_data_person">资料</string>
     <string name="tv_attention_person">+  关注</string>
@@ -192,7 +192,7 @@
     <string name="tv_nodata_balckuser">暂没有设置黑名单</string>
     <string name="tv_nodata_roomadmin">暂没有设置管理员</string>
     <string name="tv_nodata_music">暂无歌曲</string>
-    <string name="tv_nodata_musicupdate">暂无通过审核的音乐，\n请到 灵澜语音-电脑端进行音乐上传！\n官网www.youyou.com</string>
+    <string name="tv_nodata_musicupdate">暂无通过审核的音乐，\n请到 甜甜语音-电脑端进行音乐上传！\n官网www.youyou.com</string>
 
     <string name="title_theme">主题背景</string>
 
@@ -200,7 +200,7 @@
     <string name="tv_record_roompk">记录</string>
     <string name="tv_type_roompk">投票类型</string>
     <string name="tv_type_price_roompk">打赏PK</string>
-    <string name="tv_type_price_show_roompk">打赏PK（1浪花=1PK值）</string>
+    <string name="tv_type_price_show_roompk">打赏PK（1甜甜圈=1PK值）</string>
     <string name="tv_type_number_roompk">投票PK</string>
     <string name="tv_type_number_show_roompk">投票PK（1人=1PK值）</string>
     <string name="tv_time_roompk">时间限制</string>
@@ -228,7 +228,7 @@
     <string name="tv_sendto_gift">赠送</string>
     <string name="tv_all_gift">所有麦上嘉宾</string>
     <string name="tv_nodata_gift">礼物空空如也~</string>
-    <string name="tv_gold">浪花</string>
+    <string name="tv_gold">甜甜圈</string>
 
     <string name="tv_number1_gift">一心一意</string>
     <string name="tv_number10_gift">十全十美</string>
@@ -275,9 +275,9 @@
 
     <string name="title_find">发现</string>
     <string name="tv_name_find">实名认证</string>
-    <string name="tv_five_find">5星好评送浪花</string>
-    <string name="tv_att_find"> 灵澜语音使用手册</string>
-    <string name="tv_send_find">公众号送浪花</string>
+    <string name="tv_five_find">5星好评送甜甜圈</string>
+    <string name="tv_att_find"> 甜甜语音使用手册</string>
+    <string name="tv_send_find">公众号送甜甜圈</string>
     <string name="tv_share_find">邀请大作战</string>
 
     <string name="title_radioda">广播交友</string>
@@ -295,7 +295,7 @@
         审核将被驳回。 \n2. 验证后，我们将对被认定为未成年人（即年龄小于18周岁）的用户，
         提供适合未成年人的内容。 \n3. 若上传其他非验证信息的内容，平台将会视情况对账号进行封禁处理。
         \n4. 在一定时段内，未经认证审核的用户，将会被认定为未成年人，无法使用APP部分功能。
-        \n5. 本实名认证仅用于优化未成年人在 灵澜语音游览的内容以及体验，不作为找回账号等其他要求的凭证，平台不会用于其他用途。</string>
+        \n5. 本实名认证仅用于优化未成年人在 甜甜语音游览的内容以及体验，不作为找回账号等其他要求的凭证，平台不会用于其他用途。</string>
 
 
     <string name="title_message">消息</string>
@@ -345,8 +345,8 @@
     <string name="tv_hei_data">拉黑</string>
 
     <string name="tv_wallet_mine">我的钱包</string>
-    <string name="tv_you_wallet">我的浪花</string>
-    <string name="tv_topup_wallet">充值浪花</string>
+    <string name="tv_you_wallet">我的甜甜圈</string>
+    <string name="tv_topup_wallet">充值甜甜圈</string>
 
     <string name="tv_get_wallet">我的收益</string>
     <string name="tv_diamond_wallet">我的收入</string>
@@ -366,14 +366,14 @@
     <string name="hint_code_bindalipay">请输入验证码</string>
     <string name="tv_bind">确认绑定</string>
 
-    <string name="tv_chnage_get">兑换浪花 兑换有奖</string>
+    <string name="tv_chnage_get">兑换甜甜圈 兑换有奖</string>
 
-    <string name="title_exchangeyou">兑换浪花</string>
+    <string name="title_exchangeyou">兑换甜甜圈</string>
     <string name="hint_number_exchangeyou">请输入兑换的数量</string>
     <string name="tv_end_exchangeyou">余额：</string>
     <string name="tv_sure_exchangeyou">确认兑换</string>
-    <string name="tv_showone_exchangeyou">单次兑换达到100浪花，额外爆浪花或座驾 \n单次兑换浪花越多，爆大奖概率越高</string>
-    <string name="tv_showtwo_exchangeyou">钻石可以兑换浪花，兑换比率：10钻石=10浪花 \n钻石数量必须是10的整数倍</string>
+    <string name="tv_showone_exchangeyou">单次兑换达到100甜甜圈，额外爆甜甜圈或座驾 \n单次兑换甜甜圈越多，爆大奖概率越高</string>
+    <string name="tv_showtwo_exchangeyou">钻石可以兑换甜甜圈，兑换比率：10钻石=10甜甜圈 \n钻石数量必须是10的整数倍</string>
 
     <string name="tv_bill_wallet">账单</string>
 
@@ -454,7 +454,7 @@
 
     <string name="tv_service_setting">联系官方</string>
     <string name="tv_help_setting">帮助</string>
-    <string name="tv_forus_setting">关于 灵澜语音</string>
+    <string name="tv_forus_setting">关于 甜甜语音</string>
     <string name="tv_version_setting">当前版本</string>
 
 
@@ -466,7 +466,7 @@
     <string name="title_fans">粉丝</string>
 
 
-    <string name="title_login">欢迎来到灵澜语音</string>
+    <string name="title_login">欢迎来到甜甜语音</string>
     <string name="tv_phone_login">手机号码</string>
     <string name="hint_phone_login">请输入手机号</string>
     <string name="hint_newphone_login">请输入新手机号</string>
@@ -492,7 +492,7 @@
     <string name="title_register">欢迎注册</string>
     <string name="hint_phone_register">请输入您手机号码</string>
     <string name="hint_checkone_register">阅读并同意</string>
-    <string name="hint_checktwo_register">《 灵澜语音用户协议》</string>
+    <string name="hint_checktwo_register">《 甜甜语音用户协议》</string>
     <string name="hint_psdall_register">请输入6-20位英文字母或数字</string>
 
     <string name="title_datainput">填写基本资料</string>
@@ -514,10 +514,10 @@
     <string name="record_apply">申请记录</string>
     <string name="voice_sign">声音签名</string>
     <string name="tv_wanfa">玩法</string>
-    <string name="tv_wanfa1">1.玩家根据探险次数消耗对应浪花，连续探险获得礼物概率更高\n2.探险获得礼物可以在礼物列表查看</string>
+    <string name="tv_wanfa1">1.玩家根据探险次数消耗对应甜甜圈，连续探险获得礼物概率更高\n2.探险获得礼物可以在礼物列表查看</string>
     <string name="tv_wanfa2">官方声明</string>
-    <string name="tv_wanfa3">1.探险仅供娱乐使用，用户获得礼物奖励只能在平台消费；\n2.所有用户请通过官方渠道参与本玩法、禁止一切线下交易；\n3.如用非正当渠道获得礼物和浪花，用户承担不利后果；\n4.任何影响互动公平性的操作，平台有权取消用户违规活动的奖励，有权向情节严重违规用户索赔并追求相关法律。\n5.本活动与苹果公司无关</string>
-    <string name="tv_wanfa4">玩法\n1.玩家根据探险次数消耗对应浪花，连续探险获得礼物概率更高\n2.探险获得礼物可以在礼物列表查看\n\n官方声明\n1.探险仅供娱乐使用，用户获得礼物奖励只能在平台消费；\n2.所有用户请通过官方渠道参与本玩法、禁止一切线下交易；\n3.如用非正当渠道获得礼物和浪花，用户承担不利后果；\n4.任何影响互动公平性的操作，平台有权取消用户违规活动的奖励，有权向情节严重违规用户索赔并追求相关法律。\n5.本活动与苹果公司无关</string>
+    <string name="tv_wanfa3">1.探险仅供娱乐使用，用户获得礼物奖励只能在平台消费；\n2.所有用户请通过官方渠道参与本玩法、禁止一切线下交易；\n3.如用非正当渠道获得礼物和甜甜圈，用户承担不利后果；\n4.任何影响互动公平性的操作，平台有权取消用户违规活动的奖励，有权向情节严重违规用户索赔并追求相关法律。\n5.本活动与苹果公司无关</string>
+    <string name="tv_wanfa4">玩法\n1.玩家根据探险次数消耗对应甜甜圈，连续探险获得礼物概率更高\n2.探险获得礼物可以在礼物列表查看\n\n官方声明\n1.探险仅供娱乐使用，用户获得礼物奖励只能在平台消费；\n2.所有用户请通过官方渠道参与本玩法、禁止一切线下交易；\n3.如用非正当渠道获得礼物和甜甜圈，用户承担不利后果；\n4.任何影响互动公平性的操作，平台有权取消用户违规活动的奖励，有权向情节严重违规用户索赔并追求相关法律。\n5.本活动与苹果公司无关</string>
     <string name="realtime_remark">活动需知:实时奖池为官方单独让利的一个福利，实时奖池累\n积的金额将会在每晚20点~24点以礼物的形式派送出去</string>
     <string name="realtime_remark1">Ps:当日钻石蛋投入的金额越高，获得礼物的概率越大</string>
     <string name="realtime_detail">查看实时奖池</string>

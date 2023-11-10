@@ -259,7 +259,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/dp_5"
-            android:text="《 灵澜用户协议》"
+            android:text="《 甜甜用户协议》"
             android:textColor="#2980B9"
             android:textSize="@dimen/sp_12" />
     </LinearLayout>

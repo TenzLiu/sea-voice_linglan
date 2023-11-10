@@ -86,7 +86,7 @@
                 android:alpha="0.6"
                 android:gravity="center"
                 android:lineSpacingExtra="@dimen/dp_6"
-                android:text="请输入你想要赠送的浪花数量："
+                android:text="请输入你想要赠送的甜甜圈数量："
                 android:textColor="#9FA3B0"
                 android:textSize="@dimen/sp_14" />
 

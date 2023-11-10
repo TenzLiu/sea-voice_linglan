@@ -88,7 +88,7 @@
                     android:layout_marginTop="@dimen/dp_10"
                     android:drawableStart="@drawable/gold"
                     android:drawablePadding="@dimen/dp_5"
-                    android:text="0浪花"
+                    android:text="0甜甜圈"
                     android:textColor="@color/white"
                     android:textSize="@dimen/sp_12" />
             </RelativeLayout>

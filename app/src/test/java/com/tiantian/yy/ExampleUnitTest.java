@@ -1,4 +1,4 @@
-package com.linglani.yy;
+package com.tiantian.yy;
 
 import org.junit.Test;
 

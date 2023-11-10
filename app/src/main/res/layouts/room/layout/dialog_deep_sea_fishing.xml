@@ -222,7 +222,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true">
-                <com.linglani.yy.view.wheelsruflibrary.view.WheelSurfView
+                <com.tiantian.yy.view.wheelsruflibrary.view.WheelSurfView
                     android:id="@+id/wheelSurfView"
                     android:layout_width="@dimen/dp_280"
                     android:layout_height="@dimen/dp_280"
@@ -233,7 +233,7 @@
                     wheelSurfView:typenum="12"
                     wheelSurfView:vartime="75">
 
-                </com.linglani.yy.view.wheelsruflibrary.view.WheelSurfView>
+                </com.tiantian.yy.view.wheelsruflibrary.view.WheelSurfView>
             </RelativeLayout>
 
         </RelativeLayout>

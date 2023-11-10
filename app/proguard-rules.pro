@@ -40,11 +40,11 @@
 
 
 #工具类--------------------------------------------------
--keep class com.linglani.yy.utils.** {*;}
+-keep class com.tiantian.yy.utils.** {*;}
 
 #项目数据实体类文件
--keep class com.linglani.yy.bean.**{*;}
--keep class com.linglani.yy.model.**{*;}
+-keep class com.tiantian.yy.bean.**{*;}
+-keep class com.tiantian.yy.model.**{*;}
 
 
 #---------------Oss图片上传--------------

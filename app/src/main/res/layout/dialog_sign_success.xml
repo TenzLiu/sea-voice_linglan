@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
-            android:text="＋ 20浪花"
+            android:text="＋ 20甜甜圈"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/red"

@@ -1,4 +1,4 @@
-package com.linglani.yy;
+package com.tiantian.yy;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
