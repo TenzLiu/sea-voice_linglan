@@ -31,19 +31,19 @@ public class DanJackpotAdapter extends BaseQuickAdapter<GiftShowBean.DataEntity,
         int itemWidth = (int) ((ScreenUtil.getScreenWidth(mContext) - ScreenUtil.getPxByDp(80) - ScreenUtil.getPxByDp(2*2*3)) / 3);
         int itemHeight = itemWidth + ScreenUtil.getPxByDp(30);
         containerParams.width = itemWidth;
-        containerParams.height = itemHeight;
+        containerParams.height = itemHeight + ScreenUtil.getPxByDp(20);
         ll_container.setLayoutParams(containerParams);
 
         RelativeLayout rl_image = helper.getView(R.id.rl_image);
         ViewGroup.LayoutParams imageContainerParams = rl_image.getLayoutParams();
         imageContainerParams.width = itemWidth - ScreenUtil.getPxByDp(10);
-        imageContainerParams.height = itemWidth - ScreenUtil.getPxByDp(10);
+        imageContainerParams.height = itemWidth - ScreenUtil.getPxByDp(10) + ScreenUtil.getPxByDp(20);
         rl_image.setLayoutParams(imageContainerParams);
 
         ImageView iv_image = helper.getView(R.id.iv_right);
         ViewGroup.LayoutParams imageParams = iv_image.getLayoutParams();
-        imageParams.width = itemWidth - ScreenUtil.getPxByDp(30);
-        imageParams.height = itemWidth - ScreenUtil.getPxByDp(30);
+        imageParams.width = itemWidth - ScreenUtil.getPxByDp(10);
+        imageParams.height = itemWidth - ScreenUtil.getPxByDp(15);
         iv_image.setLayoutParams(imageParams);
 
         helper.setText(R.id.tv_giftName,item.getName());

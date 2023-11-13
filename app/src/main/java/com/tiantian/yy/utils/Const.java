@@ -13,8 +13,8 @@ public class Const {
 
     public static final String BASE_URL = "http://59.110.155.224/senhai/";
 //    public static final String BASE_URL = "http://127.0.0.1:10808/senhai/";
-    public static String AGORA_APP_ID = "b99f6a8f496a40c4ab174699442d5237";
-    public static final int TUIKIT_KEY = 1600004489;
+    public static String AGORA_APP_ID = "a0ee66a7a88644ee836cdc11d9ad821b";//声网
+    public static final int TUIKIT_KEY = 1600004489;//IM
     public static String chatRoom = "@TGS#aUO4URINH";//广播交友聊天室id
     public static String allMsgRoom = "@TGS#aPYAVRIN2";//全国消息聊天室id
     public static String roomChannelMsg = "@TGS#a73BVRIN2";//房间全频道消息

@@ -14,7 +14,7 @@ import com.tiantian.yy.control.VirifyCountDownTimer;
 import com.tiantian.yy.netUtls.Api;
 import com.tiantian.yy.netUtls.HttpManager;
 import com.tiantian.yy.netUtls.MyObserver;
-import com.tiantian.yy.ui.login.ForgetPassActivity;
+import com.tiantian.yy.ui.room.login.ForgetPassActivity;
 import com.tiantian.yy.utils.ActivityCollector;
 import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;

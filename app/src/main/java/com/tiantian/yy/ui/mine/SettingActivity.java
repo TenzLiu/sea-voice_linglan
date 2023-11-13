@@ -20,7 +20,7 @@ import com.tiantian.yy.dialog.MyHintDialog;
 import com.tiantian.yy.netUtls.Api;
 import com.tiantian.yy.netUtls.HttpManager;
 import com.tiantian.yy.netUtls.MyObserver;
-import com.tiantian.yy.ui.login.LoginActivity;
+import com.tiantian.yy.ui.room.login.LoginActivity;
 import com.tiantian.yy.ui.other.WebActivity;
 import com.tiantian.yy.utils.ActivityCollector;
 import com.tiantian.yy.utils.Const;

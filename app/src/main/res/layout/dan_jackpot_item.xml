@@ -13,24 +13,28 @@
         android:id="@+id/rl_image"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_120"
-        android:background="@mipmap/jackpot_item_bg"
+        android:background="@mipmap/bg_white_round"
         android:padding="@dimen/dp_5">
 
         <ImageView
             android:id="@+id/iv_right"
             android:layout_width="@dimen/dp_90"
             android:layout_height="@dimen/dp_90"
+            android:padding="@dimen/dp_10"
             android:layout_centerHorizontal="true"
-            android:src="@mipmap/dan_back_right"/>
+            android:src="@mipmap/dan_back_right"
+            android:background="@mipmap/jackpot_item_bg"/>
 
         <TextView
             android:id="@+id/tv_giftName"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_2"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/iv_right"
             android:gravity="center"
-            android:background="@mipmap/jackpot_item_name_bg"
             android:layout_alignParentBottom="true"
-            android:textColor="@color/white"
+            android:textColor="#FFFF93C3"
             android:textSize="@dimen/sp_10"
             android:text="54544" />
 

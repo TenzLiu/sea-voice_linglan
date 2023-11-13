@@ -1,4 +1,4 @@
-package com.tiantian.yy.ui.login;
+package com.tiantian.yy.ui.room.login;
 
 import android.os.Bundle;
 import android.text.method.HideReturnsTransformationMethod;

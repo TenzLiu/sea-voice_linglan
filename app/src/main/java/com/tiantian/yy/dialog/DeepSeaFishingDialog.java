@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -67,13 +68,13 @@ public class DeepSeaFishingDialog extends Dialog implements FrameAnimation.Anima
     @BindView(R.id.tv_gold)
     TextView tvGold;
     @BindView(R.id.rv_count1)
-    RelativeLayout rvCount1;
+    TextView rvCount1;
     @BindView(R.id.rv_count10)
-    RelativeLayout rvCount10;
+    TextView rvCount10;
     @BindView(R.id.rv_count100)
-    RelativeLayout rvCount100;
-    @BindView(R.id.tv_skip)
-    TextView tv_skip;
+    TextView rvCount100;
+    @BindView(R.id.iv_skip)
+    ImageView iv_skip;
     @BindView(R.id.wheelSurfView)
     WheelSurfView mWheelSurfView;
 
@@ -114,7 +115,7 @@ public class DeepSeaFishingDialog extends Dialog implements FrameAnimation.Anima
         getWindow().setWindowAnimations(R.style.BottomDialogAnimation);
         WindowManager.LayoutParams lp = getWindow().getAttributes();
         lp.width = (int) (ScreenUtil.getScreenWidth(activity));
-        lp.height = (int) (ScreenUtil.getScreenHeight(activity) * 0.6);
+        lp.height = (int) (ScreenUtil.getPxByDp(560));
         getWindow().setAttributes(lp);
         this.setOnDismissListener(new OnDismissListener() {
             @Override
@@ -145,9 +146,9 @@ public class DeepSeaFishingDialog extends Dialog implements FrameAnimation.Anima
         fishBeanViewMap.put(1314,R.mipmap.ic_deep_sea_fishing_12);
         isSkipAnima = (boolean) SharedPreferenceUtils.get(getContext(),Const.User.IS_DEEP_SEA_SKIP,false);
         if (isSkipAnima) {
-            tv_skip.setText("关");
+            iv_skip.setImageResource(R.mipmap.icon_skip_off);
         } else {
-            tv_skip.setText("开");
+            iv_skip.setImageResource(R.mipmap.icon_skip_on);
         }
         mWheelSurfView.setRotateListener(new RotateListener() {
             @Override
@@ -202,6 +203,9 @@ public class DeepSeaFishingDialog extends Dialog implements FrameAnimation.Anima
     }
 
     public void setWheelData() {
+        if(mAllGiftShowBean.getData().size() < 12){
+            mAllGiftShowBean.getData().addAll(mAllGiftShowBean.getData());
+        }
         if(mAllGiftShowBean.getData().size() > 12){
             mAllGiftShowBean.setData(mAllGiftShowBean.getData().subList(0, 12));
         }
@@ -347,9 +351,9 @@ public class DeepSeaFishingDialog extends Dialog implements FrameAnimation.Anima
             case R.id.iv_skip:
                 isSkipAnima = !isSkipAnima;
                 if (isSkipAnima) {
-                    tv_skip.setText("关");
+                    iv_skip.setImageResource(R.mipmap.icon_skip_off);
                 } else {
-                    tv_skip.setText("开");
+                    iv_skip.setImageResource(R.mipmap.icon_skip_on);
                 }
                 SharedPreferenceUtils.put(getContext(),Const.User.IS_DEEP_SEA_SKIP,isSkipAnima);
                 break;

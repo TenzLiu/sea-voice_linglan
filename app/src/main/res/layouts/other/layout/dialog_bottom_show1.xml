@@ -9,11 +9,10 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dp_25"
         android:paddingHorizontal="@dimen/dp_25"
-        android:paddingTop="@dimen/dp_30"
-        android:paddingBottom="@dimen/dp_50"
-        android:background="@drawable/record_bg">
+        android:paddingTop="@dimen/dp_50"
+        android:paddingBottom="@dimen/dp_40"
+        android:background="@drawable/explain_bg">
 
         <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
             android:id="@+id/mSwipeRefreshLayout"
@@ -30,25 +29,24 @@
 
     </RelativeLayout>
 
-    <ImageView
-        android:id="@+id/title_show1"
-        android:layout_width="186dp"
-        android:layout_height="@dimen/dp_50"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/my_egg_title"
-        android:gravity="center_horizontal"
-        android:text="本期奖池"
-        android:layout_gravity="center"
+    <TextView
+        android:id="@+id/iv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_12"
+        android:layout_marginStart="@dimen/dp_80"
+        android:text="中奖记录"
         android:textColor="@color/white_color"
-        android:textSize="@dimen/sp_16" />
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_20" />
 
     <ImageView
-        android:src="@drawable/orange_close"
+        android:id="@+id/iv_close"
         android:layout_width="@dimen/dp_30"
         android:layout_height="@dimen/dp_30"
-        android:layout_marginTop="@dimen/dp_35"
+        android:layout_marginTop="@dimen/dp_13"
         android:layout_marginEnd="@dimen/dp_20"
         android:layout_alignParentEnd="true"
-        android:id="@+id/iv_close"/>
+        android:src="@mipmap/icon_dialog_close" />
 
 </RelativeLayout>

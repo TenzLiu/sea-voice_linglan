@@ -99,10 +99,10 @@
             android:name=".ui.mine.RoomRevenueActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.login.LoginActivity"
+            android:name=".ui.room.login.LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.login.PhoneLoginActivity"
+            android:name=".ui.room.login.PhoneLoginActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".ui.room.VoiceActivity"
@@ -137,13 +137,13 @@
             android:name=".ui.room.TopupActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.login.ForgetPassActivity"
+            android:name=".ui.room.login.ForgetPassActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.login.RegisterActivity"
+            android:name=".ui.room.login.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.login.DataInputActivity"
+            android:name=".ui.room.login.DataInputActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".ui.other.SelectPhotoActivity"

@@ -9,11 +9,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dp_25"
         android:orientation="vertical"
-        android:paddingHorizontal="@dimen/dp_20"
-        android:paddingTop="@dimen/dp_30"
-        android:paddingBottom="@dimen/dp_40"
+        android:paddingHorizontal="@dimen/dp_30"
+        android:paddingTop="@dimen/dp_40"
+        android:paddingBottom="@dimen/dp_30"
         android:background="@drawable/explain_bg">
 
         <ScrollView
@@ -112,25 +111,24 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/iv_head"
-        android:layout_width="186dp"
-        android:layout_height="@dimen/dp_50"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center"
-        android:gravity="center_horizontal"
-        android:src="@drawable/tv_explain"
-        android:text="玩法说明"
+    <TextView
+        android:id="@+id/iv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_12"
+        android:layout_marginStart="@dimen/dp_80"
+        android:text="活动规则"
         android:textColor="@color/white_color"
-        android:textSize="@dimen/sp_16" />
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_20" />
 
     <ImageView
         android:id="@+id/iv_close"
         android:layout_width="@dimen/dp_30"
         android:layout_height="@dimen/dp_30"
-        android:layout_marginTop="@dimen/dp_35"
+        android:layout_marginTop="@dimen/dp_13"
         android:layout_marginEnd="@dimen/dp_20"
         android:layout_alignParentEnd="true"
-        android:src="@drawable/orange_close" />
+        android:src="@mipmap/icon_dialog_close" />
 
 </RelativeLayout>

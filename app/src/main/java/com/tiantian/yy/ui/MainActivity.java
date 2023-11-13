@@ -34,7 +34,7 @@ import com.tiantian.yy.netUtls.Api;
 import com.tiantian.yy.netUtls.HttpManager;
 import com.tiantian.yy.netUtls.MyObserver;
 import com.tiantian.yy.ui.home.fragment.HomeFragment;
-import com.tiantian.yy.ui.login.LoginActivity;
+import com.tiantian.yy.ui.room.login.LoginActivity;
 import com.tiantian.yy.ui.message.fragment.MessageFragment;
 import com.tiantian.yy.ui.mine.fragment.MineFragment;
 import com.tiantian.yy.ui.other.WebActivity;

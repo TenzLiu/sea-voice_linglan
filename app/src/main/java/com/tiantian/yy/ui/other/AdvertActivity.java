@@ -15,7 +15,7 @@ import com.tiantian.yy.netUtls.Api;
 import com.tiantian.yy.netUtls.HttpManager;
 import com.tiantian.yy.netUtls.MyObserver;
 import com.tiantian.yy.ui.MainActivity;
-import com.tiantian.yy.ui.login.LoginActivity;
+import com.tiantian.yy.ui.room.login.LoginActivity;
 import com.tiantian.yy.utils.ActivityCollector;
 import com.tiantian.yy.utils.Const;
 import com.tiantian.yy.utils.ImageUtils;

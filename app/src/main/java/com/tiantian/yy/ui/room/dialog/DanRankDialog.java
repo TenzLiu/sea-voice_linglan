@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -36,8 +37,8 @@ import butterknife.ButterKnife;
 public class DanRankDialog extends Dialog {
 
 
-    @BindView(R.id.title_show1)
-    ImageView titleShow1;
+    @BindView(R.id.iv_title)
+    TextView iv_title;
     @BindView(R.id.iv_close)
     ImageView iv_close;
     @BindView(R.id.mRecyclerView_dialog)
@@ -78,7 +79,7 @@ public class DanRankDialog extends Dialog {
         iv_close.setOnClickListener(view -> {
             dismiss();
         });
-        titleShow1.setImageResource(R.drawable.title_fortune);
+        iv_title.setText("手气榜");
         getCall();
     }
 

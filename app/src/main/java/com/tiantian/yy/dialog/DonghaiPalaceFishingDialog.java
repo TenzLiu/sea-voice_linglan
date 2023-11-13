@@ -71,13 +71,13 @@ public class DonghaiPalaceFishingDialog extends Dialog implements FrameAnimation
     @BindView(R.id.tv_gold)
     TextView tvGold;
     @BindView(R.id.rv_count1)
-    RelativeLayout rvCount1;
+    TextView rvCount1;
     @BindView(R.id.rv_count10)
-    RelativeLayout rvCount10;
+    TextView rvCount10;
     @BindView(R.id.rv_count100)
-    RelativeLayout rvCount100;
-    @BindView(R.id.tv_skip)
-    TextView tv_skip;
+    TextView rvCount100;
+    @BindView(R.id.iv_skip)
+    ImageView iv_skip;
     @BindView(R.id.iv_treasure)
     ImageView iv_treasure;
     @BindView(R.id.iv_anim)
@@ -147,9 +147,9 @@ public class DonghaiPalaceFishingDialog extends Dialog implements FrameAnimation
         fishBeanViewMap.put(666, R.mipmap.ic_donghai_palace_fishing_06);
         isSkipAnima = (boolean) SharedPreferenceUtils.get(getContext(), Const.User.IS_DONG_HAI_SKIP, false);
         if (isSkipAnima) {
-            tv_skip.setText("关");
+            iv_skip.setImageResource(R.mipmap.icon_skip_off);
         } else {
-            tv_skip.setText("开");
+            iv_skip.setImageResource(R.mipmap.icon_skip_on);
         }
     }
 
@@ -233,9 +233,9 @@ public class DonghaiPalaceFishingDialog extends Dialog implements FrameAnimation
             case R.id.rv_skip:
                 isSkipAnima = !isSkipAnima;
                 if (isSkipAnima) {
-                    tv_skip.setText("关");
+                    iv_skip.setImageResource(R.mipmap.icon_skip_off);
                 } else {
-                    tv_skip.setText("开");
+                    iv_skip.setImageResource(R.mipmap.icon_skip_on);
                 }
                 SharedPreferenceUtils.put(getContext(), Const.User.IS_DONG_HAI_SKIP, isSkipAnima);
                 break;
@@ -395,7 +395,7 @@ public class DonghaiPalaceFishingDialog extends Dialog implements FrameAnimation
         iv_effect.setVisibility(View.VISIBLE);
         Transformation<Bitmap> transformation = new CenterInside();
         Glide.with(activity)
-                .load(R.mipmap.effect_200)//不是本地资源就改为url即可
+                .load(R.mipmap.effect_gift)//不是本地资源就改为url即可
                 .optionalTransform(transformation)
                 .optionalTransform(WebpDrawable.class, new WebpDrawableTransformation(transformation))
                 .addListener(new RequestListener<Drawable>() {

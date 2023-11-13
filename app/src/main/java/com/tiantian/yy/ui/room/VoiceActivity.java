@@ -1317,7 +1317,8 @@ public class VoiceActivity extends MyBaseMVPActivity implements VoiceView,
                 }
 
                 if (mRecyclerViewChatVoice.canScrollVertically(1)) {
-                    tvHasMessageVoice.setVisibility(View.VISIBLE);
+//                    tvHasMessageVoice.setVisibility(View.VISIBLE);
+                    mRecyclerViewChatVoice.scrollToPosition(chatRecyclerAdapter.getItemCount() - 1);
                 } else {
                     mRecyclerViewChatVoice.scrollToPosition(chatRecyclerAdapter.getItemCount() - 1);
                 }
@@ -3948,7 +3949,8 @@ public class VoiceActivity extends MyBaseMVPActivity implements VoiceView,
                 if (msgRids != null && msgRids.size() > 0 && msgRids.contains(roomId)) {
                     chatShowChat.add(msg);
                     if (mRecyclerViewChatVoice.canScrollVertically(1)) {
-                        tvHasMessageVoice.setVisibility(View.VISIBLE);
+//                        tvHasMessageVoice.setVisibility(View.VISIBLE);
+                        mRecyclerViewChatVoice.scrollToPosition(chatRecyclerAdapter.getItemCount() - 1);
                     } else {
                         mRecyclerViewChatVoice.scrollToPosition(chatRecyclerAdapter.getItemCount() - 1);
                     }

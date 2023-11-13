@@ -1,4 +1,4 @@
-package com.tiantian.yy.ui.login;
+package com.tiantian.yy.ui.room.login;
 
 import android.Manifest;
 import android.annotation.SuppressLint;

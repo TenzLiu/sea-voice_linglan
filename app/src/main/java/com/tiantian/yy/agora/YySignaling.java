@@ -83,7 +83,7 @@ public class YySignaling {
             mRtmClient = RtmClient.createInstance(context, Const.AGORA_APP_ID, new RtmClientListener() {
                 @Override
                 public void onConnectionStateChanged(int state, int reason) {
-
+                    LogUtils.d(TAG, "initSignaling onConnectionStateChanged： " + state + "   reason: " + reason);
                 }
 
                 @Override
